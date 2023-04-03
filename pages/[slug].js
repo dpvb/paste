@@ -19,7 +19,7 @@ export default function ViewSnippet({ snippetText }) {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="flex-col flex gap-4 px-40 font-mono">
+            <div className="flex-col flex gap-4 px-40 font-mono  max-h-[calc(100vh-2rem)]">
                 <div className="flex justify-between items-center mt-4">
                     <Link href="/">
                         <h1 className="text-3xl">Paste!</h1>
