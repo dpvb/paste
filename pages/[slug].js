@@ -16,14 +16,14 @@ export default function ViewSnippet({ snippetText }) {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="flex-col flex gap-4 px-40 font-mono  max-h-[calc(100vh-2rem)]">
+            <div className="flex-col flex gap-4 px-12 md:px-40 font-mono  max-h-[calc(100vh-2rem)]">
                 <div className="flex justify-between items-center mt-4">
                     <Link href="/">
                         <h1 className="text-3xl">Paste!</h1>
                     </Link>
                     <button
                         onClick={() => copy(window.location)}
-                        className="bg-sky-500 hover:bg-sky-600 rounded-md transition-all duration-200 ease-in-out text-xl w-48 py-2"
+                        className="bg-sky-500 hover:bg-sky-600 rounded-md transition-all duration-200 ease-in-out text-xl w-32 md:w-48 py-2"
                     >
                         Copy Link!
                     </button>
